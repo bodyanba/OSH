@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#db4737">
+
+        <link rel="shortcut icon" href="./favicon.png" />
+
+        <title>Oman Startup Hub</title>
+
+        <link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+        <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+        <link rel="stylesheet" href="assets/css/theme.min.css?v=1" />
+        <link rel="stylesheet" href="assets/css/themes/digital-agency.css?v=1" />
+
+        <style>
+            .ld-particles-inner:before,
+            .ld-particles-inner:after,
+            .ld-particles-inner i {
+                content: '';
+                position: absolute;
+                background-size: cover;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+            .ld-particles-inner:before {
+                left: -68px;
+                top: 20%;
+                width: 68px;
+                height: 68px;
+                background-image: url(assets/img/element.svg);
+                animation-name: before;
+                animation-duration: 47s;
+            }
+            .ld-particles-inner:after {
+                left: 50px;
+                bottom: -44px;
+                width: 44px;
+                height: 44px;
+                background-image: url(assets/img/element-2.svg);
+                animation-name: after;
+                animation-duration: 51s;
+            }
+            .ld-particles-inner i {
+                left: -35px;
+                top: 45%;
+                width: 35px;
+                height: 35px;
+                background-image: url(assets/img/element-3.svg);
+                animation-name: i;
+                animation-duration: 55s;
+                animation-delay: 5s;
+            }
+            @keyframes before {
+                100% {
+                    left: 100%;
+                    top: 30%;
+                }
+            }
+            @keyframes after {
+                100% {
+                    left: 80%;
+                    bottom: 100%;
+                }
+            }
+            @keyframes i {
+                100% {
+                    left: 100%;
+                    top: 40%;
+                }
+            }
+            .main-footer {
+                position: relative;
+            }
+            .main-footer:before {
+                content: '';
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 224px;
+                height: 253.4px;
+                background-image: url(assets/img/footer.svg);
+                background-size: cover;
+            }
+        </style>
+
+        <!-- Head Libs -->
+        <script async src="assets/vendors/modernizr.min.js"></script>
+
+    </head>
+    <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+
+        <div id="wrap">
+
+            <header class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
+                <div class="mainbar-wrap">
+                    <div class="megamenu-hover-bg"></div><!-- /.megamenu-hover-bg -->
+                    <div class="container mainbar-container">
+                        <div class="mainbar">
+                            <div class="row mainbar-row align-items-lg-stretch">
+                                <div class="col pr-5">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#" rel="home">
+                                            <span class="navbar-brand-inner">
+                                                <img class="logo-sticky" src="./assets/img/logo/logo-sticky.png" alt="Oman Startup Hub">
+                                                <img class="mobile-logo-default" src="./assets/img/logo/logo-sticky.png" alt="Oman Startup Hub">
+                                                <img class="logo-default" src="./assets/img/logo/logo2.png" alt="Oman Startup Hub">
+                                            </span>
+                                        </a>
+                                        <button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="bars">
+                                                <span class="bar"></span>
+                                                <span class="bar"></span>
+                                                <span class="bar"></span>
+                                            </span>
+                                        </button>
+                                    </div><!-- /.navbar-header -->
+                                </div><!-- /.col -->
+
+                                <div class="col">
+                                    <div class="collapse navbar-collapse" id="main-header-collapse">
+                                        <ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-center"  data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' >
+                                            <li class="is-active">
+                                                <a href="#content">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">Home</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#about">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">
+                                                            Ecosystem
+                                                            <span class="submenu-expander">
+                                                                <i class="fa fa-angle-down"></i>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                                <ul class="nav-item-children">
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Overview
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Start ups
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Incubators/Accelerators
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Co-working Spaces
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Growth Supporters
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Government Bodies
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#services">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">
+                                                            Events
+                                                            <span class="submenu-expander">
+                                                                <i class="fa fa-angle-down"></i>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                                <ul class="nav-item-children">
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Upcoming Events
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Past Events
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">
+                                                            Community
+                                                            <span class="submenu-expander">
+                                                            <i class="fa fa-angle-down"></i>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                                <ul class="nav-item-children">
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Overview
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Mentor Directory
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Mentee Application
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Success Stories
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#contact">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">News</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#contact">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">
+                                                            Why Oman
+                                                            <span class="submenu-expander">
+                                                                <i class="fa fa-angle-down"></i>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                                <ul class="nav-item-children">
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Why Setup your Business in Oman?
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Top Business Opportunities in Oman 2019
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Regulations
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="portfolio-grid-1.html">
+                                                            <span class="link-icon"></span>
+                                                            <span class="link-txt">
+                                                                <span class="link-ext"></span>
+                                                                <span class="txt">
+                                                                    Quick Links
+                                                                    <span class="submenu-expander">
+                                                                        <i class="fa fa-angle-down"></i>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#contact">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">FAQ</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul><!-- /#primary-nav  -->
+                                    </div><!-- /#main-header-collapse -->
+                                </div><!-- /.col -->
+
+                                <div class="col text-right">
+                                    <div class="header-module">
+                                        <ul class="social-icon social-icon-sm scheme-white font-size-16">
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div><!-- /.header-module -->
+                                </div><!-- /.col -->
+                            </div><!-- /.mainbar-row -->
+                        </div><!-- /.mainbar -->
+                    </div><!-- /.mainbar-container -->
+                </div><!-- /.mainbar-wrap -->
+            </header><!-- /.main-header -->
+
+            <main id="content" class="content">
+
+                <section class="vc_row fullheight d-flex flex-wrap align-items-center pt-160 pb-50 mb-100">
+                    <div class="lqd-particles-bg-wrap">
+                        <div class="ld-particles-container">
+                            <div
+                            class="ld-particles-inner"
+                            id="ld-1527244273759-519b63e0-a9d6"
+                            data-particles="true"
+                            data-particles-options='{"particles":{"number":{"value":6,"density":5},"color":{"value":["#ABABAB","#FF8080","#05385C"]},"opacity":{"value":1,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"shape":{"type":["circle"],"stroke":{"width":0,"color":"#ababab"}},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":40,"speed":5}},"move":{"enable":true,"direction":"right","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row d-flex flex-wrap align-items-center">
+                            <div class="lqd-column col-lg-5 col-md-6 lqd-column" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":51,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                                <h2
+                                class="mt-140 mb-3 font-weight-normal lh-1"
+                                data-fittext="true"
+                                data-fittext-options='{ "compressor": 0.65, "maxFontSize": 72, "minFontSize": 46 }'
+                                data-split-text="true"
+                                data-split-options='{"type":"lines"}'
+                                >
+                                Welcome to <br>
+                                <span style="color:#e69775"><strong>Oman Startup Hub</strong></span>
+                                </h2>
+
+                                <p class="h3 font-weight-normal pr-md-7 mr-md-7 mb-40">Your one stop shop for everything you need to start, grow and nurture your business </p>
+
+                                <a href="#" class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin font-size-14 font-weight-bold ltr-sp-025 px-2" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+                                    <span>
+                                        <span class="btn-txt">More about us</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="lqd-column col-lg-7 col-md-6 hidden-xs hidden-sm hidden-md">
+                                <div class="ld-masked-image" data-dynamic-shape="true">
+                                    <svg version="1.1" class="scene" viewBox="0 0 1041 983">
+                                        <defs>
+                                            <clipPath id="masked-image-1">
+                                                <path fill="black" d="M131,40 C84.135,83.534 96.819,148.446 63.283,217.394 C31.508,282.723 -3.621,324.812 1.461,394.323 C3.451,421.533 12.117,449.828 29.796,480.002 C87.412,578.34 -15.301,663.448 94.611,833.387 C156.302,928.77 316.559,918.015 435.971,936.052 C572.741,956.711 653.384,1003.601 753.566,971.715 C877.689,932.209 924.99262,809.932822 972.63862,707.700822 C1063.84662,512.000822 1038.71071,197.732895 884.476705,67.2268952 C788.919705,-13.6291048 714.704,70.008 529,43 C339.693,15.468 212.609,-35.808 131,40 Z" pathdata:id="M175.270836,26.7977911 C128.405836,70.3317911 129.938279,144.739124 96.4022789,213.687124 C64.6272789,279.016124 41.242383,286.071679 46.324383,355.582679 C48.314383,382.792679 79.5246278,459.251586 88.7738696,492.334164 C116.497714,591.496483 -75.3047466,680.552915 34.6072534,850.491915 C96.2982534,945.874915 281.559,906.015 400.971,924.052 C537.741,944.711 678.161685,902.348368 778.343685,870.462368 C902.466685,830.956368 927.354,806.232 975,704 C1066.208,508.3 1058.68971,185.848951 904.455709,55.3429506 C808.898709,-25.5130494 786.027661,117.60054 600.323661,90.5925401 C411.016661,63.0605401 256.879836,-49.0102089 175.270836,26.7977911 Z; M200.391256,6 C138.06059,22.7990703 77.9622177,42.6445401 44.4262177,111.59254 C12.6512177,176.92154 -4.1051307,212.01786 0.976869296,281.52886 C2.9668693,308.73886 99.0297526,534.545109 108.278994,567.627688 C136.002839,666.790006 -29.1381304,721.523368 80.7738696,891.462368 C142.46487,986.845368 331.636556,840.153183 451.048556,858.190183 C587.818556,878.849183 705.371102,948.496676 805.553102,916.610676 C929.676102,877.104676 941.497784,689.3436 989.143784,587.1116 C1080.35178,391.4116 1050.68971,206.848951 896.455709,76.3429506 C800.898709,-4.5130494 778.027661,138.60054 592.323661,111.59254 C403.016661,84.0605401 312.765712,-24.2866392 200.391256,6 Z" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <figure class="clip-svg" data-responsive-bg="true" style="clip-path: url(#masked-image-1); -webkit-clip-path: url(#masked-image-1);">
+                                        <img src="./assets/images/main2.jpg" alt="Image">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- THUMBS -->
+                <section class="vc_row pt-120 mt-120 pb-70 ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="lqd-column col-md-8 col-md-offset-2 text-center">
+                                <header class="fancy-title mt-50">
+                                    <h2>Start. Connect. Engage.</h2>
+                                </header>
+                            </div>
+                            <div class="lqd-column col-md-4">
+                                <div id="iconbox-fill-6" class="iconbox text-center iconbox-semiround iconbox-shadow-hover iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element pt-45 pb-45" data-animate-icon="true" data-plugin-options='{"resetOnHover": true,"color": "rgb(255, 128, 128):rgb(5, 56, 92)", "hoverColor": "rgb(255, 255, 255)"}'>
+                                    <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                    <div class="iconbox-icon-wrap">
+                                        <span class="iconbox-icon-container mb-2">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="32,47 63,47 63,5 1,5 1,47 18,47 18,59 "/>
+                                                <polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,26 30,33
+                                                	43,20 "/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="contents">
+                                        <h3 class="text-primary">Start</h3>
+                                        <p>lorem ipsum lorem ispum idui lorem lorem ipsum lorem ispum idui lorem !</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lqd-column col-md-4">
+                                <div id="iconbox-fill-7" class="iconbox text-center iconbox-semiround iconbox-shadow-hover iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element pt-45 pb-45" data-animate-icon="true" data-plugin-options='{"resetOnHover": true,"color": "rgb(255, 128, 128):rgb(5, 56, 92)", "hoverColor": "rgb(255, 255, 255)"}'>
+                                    <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                    <div class="iconbox-icon-wrap">
+                                        <span class="iconbox-icon-container mb-2">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M37.004,32.166c1.224,0.533,2.576,0.829,3.997,0.828
+                                                	c3.271-0.003,6.175-1.576,7.998-4.006L60.99,16.98c1.255-1.673,1.998-3.751,1.996-6.002c-0.003-5.522-4.484-9.997-10.007-9.993
+                                                	c-2.251,0.002-4.327,0.747-5.999,2.004L33.989,15.998c-1.768,1.805-2.997,4.277-2.996,7.003c0.001,1.424,0.3,2.778,0.837,4.003"/>
+                                                <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M37.004,32.166"/>
+                                                <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M31.831,27.004c0.053,0.121,0.107,0.24,0.166,0.358"
+                                                	/>
+                                                <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M26.997,31.836c-1.225-0.535-2.577-0.831-3.998-0.83
+                                                	c-2.251,0.002-4.328,0.747-5.999,2.004L4.01,46.02c-1.768,1.804-2.997,4.276-2.995,7.002c0.003,5.522,4.484,9.997,10.007,9.993
+                                                	c3.271-0.003,6.174-1.576,7.997-4.006L31.01,47.001c1.255-1.673,1.998-3.751,1.996-6.002c-0.001-1.422-0.299-2.774-0.835-3.998"/>
+                                                <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="23.006" y1="41.006" x2="40.994" y2="22.994"/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="contents">
+                                        <h3 class="text-primary">Connect</h3>
+                                        <p>lorem ipsum lorem ispum idui lorem lorem ipsum lorem ispum idui lorem </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lqd-column col-md-4">
+                                <div id="iconbox-fill-8" class="iconbox text-center iconbox-semiround iconbox-shadow-hover iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element pt-45 pb-45" data-animate-icon="true" data-plugin-options='{"resetOnHover": true,"color": "rgb(255, 128, 128):rgb(5, 56, 92)", "hoverColor": "rgb(255, 255, 255)"}'>
+                                    <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                    <div class="iconbox-icon-wrap">
+                                        <span class="iconbox-icon-container mb-2">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="51" cy="13" r="12"/>
+                                                <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="11" cy="42" r="10"/>
+                                                <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="48" cy="55" r="8"/>
+                                                <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="40" y1="54" x2="20" y2="46"/>
+                                                <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="19" y1="35" x2="41" y2="21"/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="contents">
+                                        <h3 class="text-primary">Engage</h3>
+                                        <p>lorem ipsum lorem ispum idui lorem lorem ipsum lorem ispum idui lorem </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- COUNTER -->
+                <section id="contact" class="vc_row pt-120 pb-90" style="background-image: url(./assets/images/bg3.jpg);" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
+                    <div class="container">
+                        <div class="row">
+                            <div class="lqd-column col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":52,"translateZ":-142,"rotateX":-64,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateX":0,"opacity":1}}'>
+                                <header class="fancy-title">
+                                    <h2
+                                    class="mt-0 mb-4 text-white"
+                                    data-fittext="true"
+                                    data-fittext-options='{ "compressor": 0.65,"maxFontSize": 72,"minFontSize": 30 }'
+                                    data-split-text="true"
+                                    data-split-options='{"type":"lines"}'
+                                    >Facts & Figures</h2>
+                                </header>
+                            </div>
+
+                            <div class="lqd-column col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 text-center">
+                                <div class="iconbox iconbox-xl mb-4" data-plugin-options='{"color": "#fff"}'>
+                                    <div class="iconbox-icon-wrap">
+                                        <span class="iconbox-icon-container mb-0 text-white">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="liquid-counter liquid-counter-default text-white text-center">
+                                    <div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 55, "maxFontSize": 55 }' data-enable-counter="true" data-counter-options='{"targetNumber":"5,454","blurEffect":true}'>
+                                        <span>5,454</span>
+                                    </div>
+                                    <span class="liquid-counter-text liquid-text-bottom opacity-06">New businesses registered in 2018</span>
+                                </div>
+                            </div>
+
+                            <div class="lqd-column col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 text-center">
+                                <div class="iconbox iconbox-xl mb-4" data-plugin-options='{"color": "#fff"}'>
+                                    <div class="iconbox-icon-wrap">
+                                        <span class="iconbox-icon-container mb-0 text-white">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="liquid-counter liquid-counter-default text-white text-center">
+                                    <div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 55, "maxFontSize": 55 }' data-enable-counter="true" data-counter-options='{"targetNumber":"21","blurEffect":true}'>
+                                        <span>21</span>
+                                    </div>
+                                    <span class="liquid-counter-text liquid-text-bottom opacity-06">Incubators, Accelerators & <br /> Growth Supporters</span>
+                                </div>
+                            </div>
+
+                            <div class="lqd-column col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 text-center">
+                                <div class="iconbox iconbox-xl mb-4" data-plugin-options='{"color": "#fff"}'>
+                                    <div class="iconbox-icon-wrap">
+                                        <span class="iconbox-icon-container mb-0 text-white">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="liquid-counter liquid-counter-default text-white text-center">
+                                    <div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 55, "maxFontSize": 55 }' data-enable-counter="true" data-counter-options='{"targetNumber":"330+","blurEffect":true}'>
+                                        <span>330+ </span>
+                                    </div>
+                                    <span class="liquid-counter-text liquid-text-bottom opacity-06">Million dollars Funds available for tech start-ups</span>
+                                </div>
+                            </div>
+
+
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </section>
+
+                <!-- EVENTS -->
+                <section class="vc_row pt-100 pb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="lqd-column col-xs-12">
+                                <div class="carousel-container carousel-nav-floated carousel-nav-vertical carousel-nav-left carousel-nav-circle carousel-nav-solid carousel-nav-lg carousel-nav-shadowed ld-lp-carousel-filterable" data-filterable-carousel="true">
+                                    <div class="row">
+                                        <div class="lqd-column col-lg-5">
+                                            <header class="fancy-title mb-40">
+                                                <h2 class="mt-4">Stay updated with our upcoming <span style="color:#e69775"> Events</span></h2>
+                                            </header>
+                                            <ul class="filter-list filter-list-style-1 text-uppercase ltr-sp-1" id="carousel-filter-1">
+                                                <li class="active" data-filter="*"><span>All Events</span></li>
+                                                <li data-filter=".upcoming"><span>Upcoming Events</span></li>
+                                                <li data-filter=".past"><span>Past Events</span></li>
+                                            </ul>
+                                            <a href="#" class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin font-size-14 font-weight-bold ltr-sp-025 px-2 lqd-unit-animation-done">
+                                                <span>
+                                                    <span class="btn-txt">See all events</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="lqd-column col-lg-7">
+                                            <div class="carousel-items row" data-lqd-flickity='{ "filters": "#carousel-filter-1", "prevNextButtons": true, "navArrow": 1, "fullwidthSide": true, "navOffsets": { "nav": {"left": -10, "top": 200} } }'>
+                                                <div class="carousel-item col-sm-12 upcoming">
+                                                    <article class="liquid-lp">
+                                                        <figure class="liquid-lp-media">
+                                                            <a href="#">
+                                                                <img src="./assets/images/event1.jpg" alt="Latest Post">
+                                                            </a>
+                                                        </figure>
+                                                        <header class="liquid-lp-header">
+                                                            <h2 class="liquid-lp-title h3"><a href="#">Demo Day of Startups from National Youth Program</a></h2>
+                                                        </header>
+                                                        <div class="liquid-lp-excerpt">
+                                                            <p><i class="icon-et-calendar"></i> 14th Sep 2019,  <i class="icon-basic_geolocalize-01"></i> Muscat</p>
+                                                        </div>
+                                                        <footer class="liquid-lp-footer">
+                                                            <ul class="liquid-lp-category bordered circle">
+                                                                <li><a href="#">Startups</a></li>
+                                                                <li><a href="#">Tech</a></li>
+                                                            </ul>
+                                                        </footer>
+                                                    </article>
+                                                </div>
+
+                                                <div class="carousel-item col-sm-12 upcoming">
+                                                    <article class="liquid-lp">
+                                                        <figure class="liquid-lp-media">
+                                                            <a href="#">
+                                                                <img src="./assets/images/event2.jpg" alt="Latest Post">
+                                                            </a>
+                                                        </figure>
+                                                        <header class="liquid-lp-header">
+                                                            <h2 class="liquid-lp-title h3"><a href="#">Social Influencer Forum</a></h2>
+                                                        </header>
+                                                        <div class="liquid-lp-excerpt">
+                                                            <p><i class="icon-et-calendar"></i> 14th Sep 2019,  <i class="icon-basic_geolocalize-01"></i> Muscat</p>
+                                                        </div>
+                                                        <footer class="liquid-lp-footer">
+                                                            <ul class="liquid-lp-category bordered circle">
+                                                                <li><a href="#">Travel</a></li>
+                                                            </ul>
+                                                        </footer>
+                                                    </article>
+                                                </div>
+
+                                                <div class="carousel-item col-sm-12 upcoming">
+                                                    <article class="liquid-lp">
+                                                        <figure class="liquid-lp-media">
+                                                            <a href="#">
+                                                                <img src="./assets/images/event3.jpg" alt="Latest Post">
+                                                            </a>
+                                                        </figure>
+                                                        <header class="liquid-lp-header">
+                                                            <h2 class="liquid-lp-title h3"><a href="#">Startup Grind Muscat hosted Nasser Saleh of MadfooatCom</a></h2>
+                                                        </header>
+                                                        <div class="liquid-lp-excerpt">
+                                                            <p><i class="icon-et-calendar"></i> 28th Apr 2019,  <i class="icon-basic_geolocalize-01"></i> Muscat</p>
+                                                        </div>
+                                                        <footer class="liquid-lp-footer">
+                                                            <ul class="liquid-lp-category bordered circle">
+                                                                <li><a href="#">Travel</a></li>
+                                                            </ul>
+                                                        </footer>
+                                                    </article>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CALL TO ACTION -->
+                <section class="vc_row pt-70 pb-85 bg-cover" style="background-image: url(./assets/images/bg4.jpg)" data-parallax="true" data-parallax-options='{"parallaxBG": true}'>
+                    <div class="liquid-row-overlay" style="background:rgba(9, 17, 35, 0.645)"></div>
+                    <div class="container">
+                        <div class="row" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":45,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                            <div class="lqd-column col-md-8 col-md-offset-2 px-md-7 text-center">
+                                <p class="h3 font-weight-bold text-white mb-2" data-fittext="true" data-fittext-options='{"compressor": 0.75, "maxFontSize": 40, "minFontSize": "currentFontSize"}'>
+                                    "Great things in business are never <span class="text-primary">done by one person.</span>"
+                                    <p class="text-white ">
+                                        Steve Jobs
+                                    </p>
+                                </p>
+                                <a href="#" class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin font-size-14 font-weight-bold ltr-sp-025 px-2 lqd-unit-animation-done" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+                                    <span>
+                                        <span class="btn-txt">Join the Community</span>
+                                        <span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main><!-- /#content.content -->
+
+            <footer class="main-footer pt-90">
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="lqd-column col-md-3 col-sm-6">
+
+                                <h3 class="widget-title font-size-20">Ecosystem</h3>
+                                <ul class="lqd-custom-menu reset-ul font-size-14 lh-2">
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">Startups</a></li>
+                                    <li><a href="#">Incubators/Accelerators</a></li>
+                                    <li><a href="#">Co-Working Spaces</a></li>
+                                    <li><a href="#">Growth Supporters</a></li>
+                                </ul>
+
+                            </div><!-- /.col-md-3 col-sm-6 -->
+
+                            <div class="lqd-column col-md-3 col-sm-6">
+
+                                <h3 class="widget-title font-size-20">Events</h3>
+                                <ul class="lqd-custom-menu reset-ul font-size-14 lh-2">
+                                    <li><a href="#">Upcoming</a></li>
+                                    <li><a href="#">Past</a></li>
+                                </ul>
+
+                            </div><!-- /.col-md-3 col-sm-6 -->
+
+                            <div class="lqd-column col-md-3 col-sm-6">
+
+                                <h3 class="widget-title font-size-20">Community</h3>
+                                <ul class="lqd-custom-menu reset-ul font-size-14 lh-2">
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">Mentor Directory</a></li>
+                                    <li><a href="#">Mentee Application</a></li>
+                                    <li><a href="#">Success Stories</a></li>
+                                </ul>
+
+                            </div><!-- /.col-md-3 col-sm-6 -->
+
+                            <div class="lqd-column col-md-3 col-sm-6">
+
+                                <h3 class="widget-title font-size-20">Why Oman</h3>
+                                <ul class="lqd-custom-menu reset-ul font-size-14 lh-2">
+                                    <li><a href="#">Why Setup Your Business in Oman</a></li>
+                                    <li><a href="#">Top Business Opportunities</a></li>
+                                    <li><a href="#">Regulations</a></li>
+                                    <li><a href="#">Quick Links</a></li>
+                                </ul>
+
+                            </div><!-- /.col-md-3 col-sm-6 -->
+
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+
+                </section>
+
+                <section class="bt-fade-white-015 pt-50 pb-60">
+                    <div class="container">
+                        <div class="row d-flex flex-wrap align-items-center">
+                            <div class="lqd-column col-md-4 col-xs-6">
+
+                            </div><!-- /.col-md-4 -->
+
+                            <div class="lqd-column col-md-4 col-xs-6 text-right text-md-center">
+
+                                <p class="font-size-14 mb-60 mb-md-0">© 2019 <span class="font-weight-bold text-secondary">Oman Startup Hub</span>. All Rights Reserved.</p>
+
+                            </div><!-- /.col-md-4 -->
+
+                            <div class="lqd-column col-md-4 col-xs-12 text-center text-md-right">
+
+                            </div><!-- /.col-md-4 -->
+
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </section>
+
+            </footer><!-- /.main-footer -->
+
+        </div><!-- /#wrap -->
+
+        <script src="./assets/vendors/jquery.min.js"></script>
+        <script src="./assets/js/theme-vendors.js"></script>
+        <script src="./assets/js/theme.min.js"></script>
+
+    </body>
+</html>
